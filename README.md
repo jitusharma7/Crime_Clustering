@@ -34,4 +34,4 @@ An effective strategy for curbing crime in one state can be implemented in anoth
 
 
 ## Credit
-This project has been done oas a course project.
+This project has been done as a course project.
