@@ -14,11 +14,6 @@ This project aims is to cluster the USA States based on types of crime.
  ## Problem_Definition
 An effective strategy for curbing crime in one state can be implemented in another state with similar types of crime. So, with help of k-Mean clustering, the US states clustering is done based on similar types of occurrence of crime.
  
- 
-     
-     <img src="/Multicolinearity.PNG" width="500">
-
-
 
 ## Model_Building
 * Scaling of dataset since K- Mean clustering works on Euclidean distance so to remove any kind of bias, scaling operation is done on the dataset
@@ -29,14 +24,14 @@ An effective strategy for curbing crime in one state can be implemented in anoth
      <img src="/Elbow%20Method.png" width="400">
 
 ## Result
-* XG Boost classifieroutperforms here among all model with 83.24% accuracy
-* Feature importance score from XGBoost classifier
-* Top 3 important features = 'Percent difference CTC', 'Duration to accept offer', 'Age'
-* Least 3 important features = 'Joining Bonus_Yes', 'LOB_EAS', 'LOB_Healthcare'
+* Cluster 1  shows least  number of states of similar type .
+* Number of states falls into cluster 2 & 3 are almost same .
+ 
+<img src="/cluster%20count.png" width="400">
 
-## Business_Recommendation
-* Firm should focus on 3 important features 'Percent difference CTC', 'Duration to accept offer'& 'Age'
-* Firm should introduce new offering/schemes  based on these 3 features combination so that attrition rate can reduce.
+<img src="/Cluster%20Image.png" width="400">
+
+
 
 ## Credit
-[dare2Compete](https://https://dare2compete.com/) - This project has been done on this competitive platform.
+This project has been done oas a course project.
