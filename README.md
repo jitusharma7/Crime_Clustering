@@ -17,15 +17,15 @@ An effective strategy for curbing crime in one state can be implemented in anoth
 
 ## Model_Building
 * Scaling of dataset since K- Mean clustering works on Euclidean distance so to remove any kind of bias, scaling operation is done on the dataset
-* K-Mean clustering algorithm applied with number of cluster = 3
-* Checked optimal  number of cluster with elbow method
+* K-Mean clustering algorithm applied with many clusters = 3
+* Checked optimal  number of the cluster with elbow method
 
 
      <img src="/Elbow%20Method.png" width="400">
 
 ## Result
-* Cluster 1  shows least  number of states of similar type .
-* Number of states falls into cluster 2 & 3 are almost same .
+* Cluster 1  shows the least number of states of similar type.
+* Number of states falls into cluster 2 & 3 are almost the same.
  
 <img src="/cluster%20count.png" width="400">
 
